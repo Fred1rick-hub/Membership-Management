@@ -371,7 +371,7 @@ function logout() {
         } catch (e) {
             console.warn('Could not clear user session:', e);
         }
-        window.location.href = '/index.html';
+        window.location.href = 'index.html';
     }
 }
 
